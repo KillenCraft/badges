@@ -3,24 +3,28 @@
 Cozy and compact badges for KillenCraft Minecraft mods, in the [Devin's Badges](https://github.com/intergrav/devins-badges) style.
 
 <p>
-  <img alt="Supported on Forge" src="cozy/supported/forge_vector.svg">
-  <img alt="Supported on Fabric" src="cozy/supported/fabric_vector.svg">
-  <img alt="Requires Stope" src="cozy/requires/stope_vector.svg">
+  <img alt="Supported on Forge" src="assets/cozy/supported/forge_vector.svg">
+  <img alt="Supported on Fabric" src="assets/cozy/supported/fabric_vector.svg">
+  <img alt="Requires Stope" src="assets/cozy/requires/stope_vector.svg">
 </p>
 <p>
-  <img alt="Report issues on GitHub" src="compact/support/github-issues_vector.svg">
-  <img alt="KillenCraft" src="compact/brand/killencraft_vector.svg">
+  <img alt="KillenCraft" src="assets/compact/brand/killencraft_vector.svg">
 </p>
 
 ## Available badges
 
-| Badge | Style | Path |
-|---|---|---|
-| Supported: Forge | Cozy | `cozy/supported/forge` |
-| Supported: Fabric | Cozy | `cozy/supported/fabric` |
-| Requires Stope | Cozy | `cozy/requires/stope` |
-| Report issues on GitHub | Compact | `compact/support/github-issues` |
-| KillenCraft | Compact | `compact/brand/killencraft` |
+| Badge                   | Style   | Path                        |
+| ----------------------- | ------- | --------------------------- |
+| Supported: Forge        | Cozy    | `cozy/supported/forge`      |
+|                         | Compact | `compact/supported/forge`   |
+| Supported: Fabric       | Cozy    | `cozy/supported/fabric`     |
+|                         | Compact | `compact/supported/fabric`  |
+| Requires Stope          | Cozy    | `cozy/requires/stope`       |
+|                         | Compact | `compact/requires/stope`    |
+| Report issues on GitHub | Cozy    | `cozy/support/issues`       |
+|                         | Compact | `compact/support/issues`    |
+| KillenCraft             | Cozy    | `cozy/brand/killencraft`    |
+|                         | Compact | `compact/brand/killencraft` |
 
 Every badge comes in two formats:
 
@@ -44,7 +48,12 @@ If your mod depends on [Stope](https://www.curseforge.com/minecraft/mc-mods/stop
 **HTML (CurseForge):**
 
 ```html
-<a href="https://www.curseforge.com/minecraft/mc-mods/stope"><img alt="Requires Stope" height="COZY_HEIGHT" src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/cozy/requires/stope.png"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/stope"
+  ><img
+    alt="Requires Stope"
+    height="64px"
+    src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/cozy/requires/stope.png"
+/></a>
 ```
 
 **Markdown (GitHub, Modrinth):**
@@ -61,13 +70,30 @@ This is the standard header for KillenCraft mod pages. Row 1 tells players what 
 
 ```html
 <p>
-  <img alt="Supported on Forge" height="COZY_HEIGHT" src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/cozy/supported/forge.png">
-  <img alt="Supported on Fabric" height="COZY_HEIGHT" src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/cozy/supported/fabric.png">
-  <a href="https://www.curseforge.com/minecraft/mc-mods/stope"><img alt="Requires Stope" height="COZY_HEIGHT" src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/cozy/requires/stope.png"></a>
+  <img
+    alt="Supported on Forge"
+    height="64px"
+    src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/cozy/supported/forge.png"
+  />
+  <img
+    alt="Supported on Fabric"
+    height="64px"
+    src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/cozy/supported/fabric.png"
+  />
+  <a href="https://www.curseforge.com/minecraft/mc-mods/stope"
+    ><img
+      alt="Requires Stope"
+      height="64px"
+      src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/cozy/requires/stope.png"
+  /></a>
 </p>
 <p>
-  <a href="https://github.com/KillenCraft/issues"><img alt="Report issues on GitHub" height="COMPACT_HEIGHT" src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/compact/support/github-issues.png"></a>
-  <a href="KILLENCRAFT_URL"><img alt="KillenCraft" height="COMPACT_HEIGHT" src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/compact/brand/killencraft.png"></a>
+  <a href="https://discord.gg/HpGvhxZ2at"
+    ><img
+      alt="KillenCraft"
+      height="46px"
+      src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/compact/brand/killencraft.png"
+  /></a>
 </p>
 ```
 
