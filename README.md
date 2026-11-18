@@ -51,7 +51,7 @@ If your mod depends on [Stope](https://www.curseforge.com/minecraft/mc-mods/stop
 <a href="https://www.curseforge.com/minecraft/mc-mods/stope"
   ><img
     alt="Requires Stope"
-    height="64px"
+    height="64"
     src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/cozy/requires/stope.png"
 /></a>
 ```
@@ -59,7 +59,7 @@ If your mod depends on [Stope](https://www.curseforge.com/minecraft/mc-mods/stop
 **Markdown (GitHub, Modrinth):**
 
 ```markdown
-[![Requires Stope](https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/cozy/requires/stope_vector.svg)](https://www.curseforge.com/minecraft/mc-mods/stope)
+[![Requires Stope](https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/cozy/requires/stope_vector.svg)](https://www.curseforge.com/minecraft/mc-mods/stope)
 ```
 
 Stope is required on both Forge and Fabric. If your mod also needs Fabric API, say "Fabric only" next to that badge so players don't mix up the two.
@@ -72,27 +72,27 @@ This is the standard header for KillenCraft mod pages. Row 1 tells players what 
 <p>
   <img
     alt="Supported on Forge"
-    height="64px"
-    src="https://cdn.jsdelivr.net/gh/KillenCraft/badges/assets/cozy/supported/forge.png"
+    height="64"
+    src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/cozy/supported/forge.png"
   />
   <img
     alt="Supported on Fabric"
-    height="64px"
-    src="https://cdn.jsdelivr.net/gh/KillenCraft/badges/assets/cozy/supported/fabric.png"
+    height="64"
+    src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/cozy/supported/fabric.png"
   />
   <a href="https://www.curseforge.com/minecraft/mc-mods/stope"
     ><img
       alt="Requires Stope"
-      height="64px"
-      src="https://cdn.jsdelivr.net/gh/KillenCraft/badges/assets/cozy/requires/stope.png"
+      height="64"
+      src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/cozy/requires/stope.png"
   /></a>
 </p>
 <p>
   <a href="https://discord.gg/HpGvhxZ2at"
     ><img
       alt="KillenCraft"
-      height="46px"
-      src="https://cdn.jsdelivr.net/gh/KillenCraft/badges/assets/compact/brand/killencraft.png"
+      height="46"
+      src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/compact/brand/killencraft.png"
   /></a>
 </p>
 ```
