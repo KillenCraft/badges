@@ -38,7 +38,7 @@ PNGs are exported at 2x. Set the `height` attribute when you use them, or they w
 Link to the files through jsDelivr, pinned to the major version:
 
 ```
-https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/<style>/<category>/<name>.png
+https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/<style>/<category>/<name>.png
 ```
 
 ### Requires Stope
@@ -52,7 +52,7 @@ If your mod depends on [Stope](https://www.curseforge.com/minecraft/mc-mods/stop
   ><img
     alt="Requires Stope"
     height="64"
-    src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/cozy/requires/stope.png"
+    src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/cozy/requires/stope.png"
 /></a>
 ```
 
@@ -101,7 +101,7 @@ On Stope's own page, leave out the Requires Stope badge.
 
 ## Versioning
 
-Releases are tagged with semantic versions (`v1.0.0`, `v1.1.0`, ...). jsDelivr resolves `@1` to the newest `1.x.x` tag.
+Releases are tagged with semantic versions (`1.0.0`, `1.1.0`, ...). jsDelivr resolves `@1` to the newest `1.x.x` tag.
 
 - **Minor releases** add badges. Existing files are never renamed, moved, or deleted, so pinned links keep working.
 - **Major releases** change the look of the whole set. Pages pinned to the old major version are unaffected until you update them.
