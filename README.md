@@ -64,41 +64,6 @@ If your mod depends on [Stope](https://www.curseforge.com/minecraft/mc-mods/stop
 
 Stope is required on both Forge and Fabric. If your mod also needs Fabric API, say "Fabric only" next to that badge so players don't mix up the two.
 
-### Full KillenCraft strip
-
-This is the standard header for KillenCraft mod pages. Row 1 tells players what they need; row 2 tells them where to go.
-
-```html
-<p>
-  <img
-    alt="Supported on Forge"
-    height="64"
-    src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/cozy/supported/forge.png"
-  />
-  <img
-    alt="Supported on Fabric"
-    height="64"
-    src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/cozy/supported/fabric.png"
-  />
-  <a href="https://www.curseforge.com/minecraft/mc-mods/stope"
-    ><img
-      alt="Requires Stope"
-      height="64"
-      src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/cozy/requires/stope.png"
-  /></a>
-</p>
-<p>
-  <a href="https://discord.gg/HpGvhxZ2at"
-    ><img
-      alt="KillenCraft"
-      height="46"
-      src="https://cdn.jsdelivr.net/gh/KillenCraft/badges@1/assets/compact/brand/killencraft.png"
-  /></a>
-</p>
-```
-
-On Stope's own page, leave out the Requires Stope badge.
-
 ## Versioning
 
 Releases are tagged with semantic versions (`1.0.0`, `1.1.0`, ...). jsDelivr resolves `@1` to the newest `1.x.x` tag.
